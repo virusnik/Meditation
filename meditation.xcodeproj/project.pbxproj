@@ -11,6 +11,14 @@
 		36A2E0572A16706100B90A59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A2E0562A16706100B90A59 /* ContentView.swift */; };
 		36A2E0592A16706300B90A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A2E0582A16706300B90A59 /* Assets.xcassets */; };
 		36A2E05C2A16706300B90A59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A2E05B2A16706300B90A59 /* Preview Assets.xcassets */; };
+		36A2E0652A167D2D00B90A59 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A2E0642A167D2D00B90A59 /* LaunchScreenView.swift */; };
+		36C8600E2A1B66FA00FFF013 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8600D2A1B66FA00FFF013 /* PlayerView.swift */; };
+		36C860102A1BB5BA00FFF013 /* Party Favor - Wasabi (feat Salvatore Ganacci).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36C8600F2A1BB5BA00FFF013 /* Party Favor - Wasabi (feat Salvatore Ganacci).mp3 */; };
+		36C860122A1BB69100FFF013 /* AudioPlayerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C860112A1BB69100FFF013 /* AudioPlayerSettings.swift */; };
+		36C860142A1C006200FFF013 /* Tribu-Tulum-Purnamadah.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36C860132A1C006200FFF013 /* Tribu-Tulum-Purnamadah.wav */; };
+		36C860162A1CB3F800FFF013 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C860152A1CB3F800FFF013 /* HomeView.swift */; };
+		36C860182A1CB42700FFF013 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C860172A1CB42700FFF013 /* ProfileView.swift */; };
+		36C8601C2A1CB5AD00FFF013 /* LaunchScreenStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8601B2A1CB5AD00FFF013 /* LaunchScreenStateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		36A2E0562A16706100B90A59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36A2E0582A16706300B90A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A2E05B2A16706300B90A59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36A2E0642A167D2D00B90A59 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		36C8600D2A1B66FA00FFF013 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		36C8600F2A1BB5BA00FFF013 /* Party Favor - Wasabi (feat Salvatore Ganacci).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Party Favor - Wasabi (feat Salvatore Ganacci).mp3"; sourceTree = "<group>"; };
+		36C860112A1BB69100FFF013 /* AudioPlayerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerSettings.swift; sourceTree = "<group>"; };
+		36C860132A1C006200FFF013 /* Tribu-Tulum-Purnamadah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Tribu-Tulum-Purnamadah.wav"; sourceTree = "<group>"; };
+		36C860152A1CB3F800FFF013 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		36C860172A1CB42700FFF013 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		36C8601B2A1CB5AD00FFF013 /* LaunchScreenStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenStateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,8 @@
 		36A2E0532A16706100B90A59 /* meditation */ = {
 			isa = PBXGroup;
 			children = (
+				36C860202A1CB6AA00FFF013 /* Media */,
+				36C860192A1CB4BE00FFF013 /* Views */,
 				36A2E0542A16706100B90A59 /* meditationApp.swift */,
 				36A2E0562A16706100B90A59 /* ContentView.swift */,
 				36A2E0582A16706300B90A59 /* Assets.xcassets */,
@@ -65,6 +83,60 @@
 				36A2E05B2A16706300B90A59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36C860192A1CB4BE00FFF013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36C8601A2A1CB58E00FFF013 /* Launch */,
+				36C8601D2A1CB5E500FFF013 /* Home */,
+				36C8601E2A1CB60700FFF013 /* Player */,
+				36C8601F2A1CB62000FFF013 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36C8601A2A1CB58E00FFF013 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				36A2E0642A167D2D00B90A59 /* LaunchScreenView.swift */,
+				36C8601B2A1CB5AD00FFF013 /* LaunchScreenStateManager.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		36C8601D2A1CB5E500FFF013 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				36C860152A1CB3F800FFF013 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		36C8601E2A1CB60700FFF013 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				36C860112A1BB69100FFF013 /* AudioPlayerSettings.swift */,
+				36C8600D2A1B66FA00FFF013 /* PlayerView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		36C8601F2A1CB62000FFF013 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				36C860172A1CB42700FFF013 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		36C860202A1CB6AA00FFF013 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				36C8600F2A1BB5BA00FFF013 /* Party Favor - Wasabi (feat Salvatore Ganacci).mp3 */,
+				36C860132A1C006200FFF013 /* Tribu-Tulum-Purnamadah.wav */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A2E05C2A16706300B90A59 /* Preview Assets.xcassets in Resources */,
+				36C860102A1BB5BA00FFF013 /* Party Favor - Wasabi (feat Salvatore Ganacci).mp3 in Resources */,
+				36C860142A1C006200FFF013 /* Tribu-Tulum-Purnamadah.wav in Resources */,
 				36A2E0592A16706300B90A59 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C860182A1CB42700FFF013 /* ProfileView.swift in Sources */,
 				36A2E0572A16706100B90A59 /* ContentView.swift in Sources */,
+				36C860162A1CB3F800FFF013 /* HomeView.swift in Sources */,
 				36A2E0552A16706100B90A59 /* meditationApp.swift in Sources */,
+				36C8601C2A1CB5AD00FFF013 /* LaunchScreenStateManager.swift in Sources */,
+				36C8600E2A1B66FA00FFF013 /* PlayerView.swift in Sources */,
+				36C860122A1BB69100FFF013 /* AudioPlayerSettings.swift in Sources */,
+				36A2E0652A167D2D00B90A59 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
